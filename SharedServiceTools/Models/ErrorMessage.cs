@@ -12,9 +12,9 @@ namespace SharedServiceTools
             this.Message = "OK";
         }
 
-        public ErrorMessage(string message)
+        public ErrorMessage(string message, string source)
         {
-            this.Source = "TourService";
+            this.Source = source;
             this.Message = message;
         }
 
