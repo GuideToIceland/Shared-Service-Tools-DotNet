@@ -1,0 +1,3 @@
+[submodule "LambdaConnectorShared"]
+	path = LambdaConnectorShared
+	url = https://github.com/GuideToIceland/common-connector
