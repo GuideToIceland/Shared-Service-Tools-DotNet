@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SharedServiceTools.Models
+namespace SharedServiceTools
 {
     public class BaseResponseData<TData>
     {
