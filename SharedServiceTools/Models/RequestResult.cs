@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace SharedServiceTools.Models
+namespace SharedServiceTools
 {
     public class RequestResult<TData, TErrorInfo>
     {

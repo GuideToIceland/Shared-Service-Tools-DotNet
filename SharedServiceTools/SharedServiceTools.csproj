@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LambdaConnectorShared\LambdaConnectorShared\LambdaConnectorShared.Common\LambdaConnectorShared.Common.csproj" />
+  </ItemGroup>
+
 </Project>
