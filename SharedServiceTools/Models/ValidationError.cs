@@ -5,14 +5,14 @@ using System.Threading.Tasks;
 
 namespace SharedServiceTools
 {
-    public class ErrorMessage
+    public class ValidationError
     {
-        public ErrorMessage()
+        public ValidationError()
         {
             this.Message = "OK";
         }
 
-        public ErrorMessage(string message, string source)
+        public ValidationError(string source, string message)
         {
             this.Source = source;
             this.Message = message;

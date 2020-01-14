@@ -3,11 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedServiceTools", "SharedServiceTools\SharedServiceTools.csproj", "{A05343AA-01DE-4E49-8964-0AB0FC54B820}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedServiceTools", "SharedServiceTools\SharedServiceTools.csproj", "{A05343AA-01DE-4E49-8964-0AB0FC54B820}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{2D421645-BC86-45DD-A740-6EDB351684D5}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaConnectorShared.Common", "LambdaConnectorShared\LambdaConnectorShared\LambdaConnectorShared.Common\LambdaConnectorShared.Common.csproj", "{74277A93-D668-4149-9BD4-10E355508E91}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{83A8D0D5-B2B5-4C8E-B5A3-F2FB0A6A63DD}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +20,9 @@ Global
 		{A05343AA-01DE-4E49-8964-0AB0FC54B820}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A05343AA-01DE-4E49-8964-0AB0FC54B820}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A05343AA-01DE-4E49-8964-0AB0FC54B820}.Release|Any CPU.Build.0 = Release|Any CPU
-		{74277A93-D668-4149-9BD4-10E355508E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74277A93-D668-4149-9BD4-10E355508E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74277A93-D668-4149-9BD4-10E355508E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{74277A93-D668-4149-9BD4-10E355508E91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{74277A93-D668-4149-9BD4-10E355508E91} = {2D421645-BC86-45DD-A740-6EDB351684D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8B333CE2-0A7C-4364-ABB4-F61B9A264A69}
